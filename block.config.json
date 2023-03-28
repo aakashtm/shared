@@ -1,0 +1,13 @@
+{
+  "name": "shared",
+  "type": "shared-fn",
+  "source": {
+    "https": "https://github.com/aakashtm/shared",
+    "ssh": "git@github.com:aakashtm/shared.git"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "",
+  "postPull": "npm i",
+  "standAloneBlock": false
+}
